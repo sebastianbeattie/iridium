@@ -1,0 +1,55 @@
+{
+    "rules": [
+        {
+            "name": "OneActionOnePlaceManyThings",
+            "relationship": [
+                {
+                    "entityName": "action",
+                    "maxQuantity": 1
+                },
+                {
+                    "entityName": "place",
+                    "maxQuantity": 1
+                },
+                {
+                    "entityName": "thing",
+                    "maxQuantity": -1
+                }
+            ]
+        },
+        {
+            "name": "OneActionOnePlaceManyThingsButDuplicated",
+            "relationship": [
+                {
+                    "entityName": "action",
+                    "maxQuantity": 1
+                },
+                {
+                    "entityName": "place",
+                    "maxQuantity": 1
+                },
+                {
+                    "entityName": "thing",
+                    "maxQuantity": -1
+                }
+            ]
+        },
+        {
+            "name": "OneActionOnePlaceOneThing",
+            "relationship": [
+                {
+                    "entityName": "action",
+                    "maxQuantity": 1
+                },
+                {
+                    "entityName": "place",
+                    "maxQuantity": 1
+                },
+                {
+                    "entityName": "thing",
+                    "maxQuantity": 1
+                }
+            ]
+        }
+    ]
+}

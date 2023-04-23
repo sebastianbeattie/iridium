@@ -1,0 +1,69 @@
+{
+    "entities": [
+        {
+            "type": "place",
+            "name": "bedroom",
+            "aliases": [
+                "bedroom",
+                "bed room",
+                "the bedroom",
+                "my bedroom",
+                "my room"
+            ]
+        },
+        {
+            "type": "place",
+            "name": "living room",
+            "aliases": [
+                "living room",
+                "the living room",
+                "sitting room"
+            ]
+        },
+        {
+            "type": "thing",
+            "name": "lights",
+            "aliases": [
+                "lights",
+                "lamp",
+                "lamps",
+                "light",
+                "lighting"
+            ]
+        },
+        {
+            "type": "thing",
+            "name": "heating",
+            "aliases": [
+                "heating",
+                "radiator",
+                "heater",
+                "central heating"
+            ]
+        },
+        {
+            "type": "action",
+            "name": "turn on",
+            "aliases": [
+                "turn on",
+                "enable",
+                "switch on",
+                "power on",
+                "turnon",
+                "on"
+            ]
+        },
+        {
+            "type": "action",
+            "name": "turn off",
+            "aliases": [
+                "turn off",
+                "disable",
+                "switch off",
+                "power off",
+                "turnoff",
+                "off"
+            ]
+        }
+    ]
+}

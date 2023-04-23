@@ -3,5 +3,8 @@
     "express": "^4.18.2",
     "morgan": "^1.10.0",
     "node-nlp": "^3.10.2"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }

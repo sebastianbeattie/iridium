@@ -107,9 +107,9 @@ class IridiumProcessor {
                 ruleFinds.push(rule);
             }
         }
-        if (ruleFinds.length > 1) return { error: "Too many rules found! Found: " + ruleFinds.map(r => r.getName).toString(), message: "ERR_TOO_MANY_RULES" }
-        if (ruleFinds.length == 0) return { error: "No rules found", message: "ERR_NO_RULES" };
-        else return { rule: ruleFinds[0].name, entities: finds };
+        if (ruleFinds.length > 1) return { message: "Too many rules found! Found: " + ruleFinds.map(r => r.name).toString(), error: "ERR_TOO_MANY_RULES", success: false }
+        if (ruleFinds.length == 0) return { message: "No rules found", error: "ERR_NO_RULES", success: false };
+        else return { rule: ruleFinds[0].name, entities: finds, success: true };
     }
 
     findEntitiesAndRule(input) {
